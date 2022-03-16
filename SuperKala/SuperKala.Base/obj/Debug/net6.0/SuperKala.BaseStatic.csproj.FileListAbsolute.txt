@@ -1,0 +1,12 @@
+E:\FinalProject\SuperKala\SuperKala.Base\bin\Debug\net6.0\SuperKala.BaseStatic.deps.json
+E:\FinalProject\SuperKala\SuperKala.Base\bin\Debug\net6.0\SuperKala.BaseStatic.dll
+E:\FinalProject\SuperKala\SuperKala.Base\bin\Debug\net6.0\SuperKala.BaseStatic.pdb
+E:\FinalProject\SuperKala\SuperKala.Base\obj\Debug\net6.0\SuperKala.BaseStatic.csproj.AssemblyReference.cache
+E:\FinalProject\SuperKala\SuperKala.Base\obj\Debug\net6.0\SuperKala.BaseStatic.GeneratedMSBuildEditorConfig.editorconfig
+E:\FinalProject\SuperKala\SuperKala.Base\obj\Debug\net6.0\SuperKala.BaseStatic.AssemblyInfoInputs.cache
+E:\FinalProject\SuperKala\SuperKala.Base\obj\Debug\net6.0\SuperKala.BaseStatic.AssemblyInfo.cs
+E:\FinalProject\SuperKala\SuperKala.Base\obj\Debug\net6.0\SuperKala.BaseStatic.csproj.CoreCompileInputs.cache
+E:\FinalProject\SuperKala\SuperKala.Base\obj\Debug\net6.0\SuperKala.BaseStatic.dll
+E:\FinalProject\SuperKala\SuperKala.Base\obj\Debug\net6.0\refint\SuperKala.BaseStatic.dll
+E:\FinalProject\SuperKala\SuperKala.Base\obj\Debug\net6.0\SuperKala.BaseStatic.pdb
+E:\FinalProject\SuperKala\SuperKala.Base\obj\Debug\net6.0\ref\SuperKala.BaseStatic.dll

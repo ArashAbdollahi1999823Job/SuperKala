@@ -1,0 +1,12 @@
+E:\FinalProject\SuperKala\SuperKala.Query\bin\Debug\net6.0\SuperKala.Query.deps.json
+E:\FinalProject\SuperKala\SuperKala.Query\bin\Debug\net6.0\SuperKala.Query.dll
+E:\FinalProject\SuperKala\SuperKala.Query\bin\Debug\net6.0\SuperKala.Query.pdb
+E:\FinalProject\SuperKala\SuperKala.Query\obj\Debug\net6.0\SuperKala.Query.csproj.AssemblyReference.cache
+E:\FinalProject\SuperKala\SuperKala.Query\obj\Debug\net6.0\SuperKala.Query.GeneratedMSBuildEditorConfig.editorconfig
+E:\FinalProject\SuperKala\SuperKala.Query\obj\Debug\net6.0\SuperKala.Query.AssemblyInfoInputs.cache
+E:\FinalProject\SuperKala\SuperKala.Query\obj\Debug\net6.0\SuperKala.Query.AssemblyInfo.cs
+E:\FinalProject\SuperKala\SuperKala.Query\obj\Debug\net6.0\SuperKala.Query.csproj.CoreCompileInputs.cache
+E:\FinalProject\SuperKala\SuperKala.Query\obj\Debug\net6.0\SuperKala.Query.dll
+E:\FinalProject\SuperKala\SuperKala.Query\obj\Debug\net6.0\refint\SuperKala.Query.dll
+E:\FinalProject\SuperKala\SuperKala.Query\obj\Debug\net6.0\SuperKala.Query.pdb
+E:\FinalProject\SuperKala\SuperKala.Query\obj\Debug\net6.0\ref\SuperKala.Query.dll

@@ -9,7 +9,10 @@
   <ItemGroup>
     <Folder Include="IApplication\" />
     <Folder Include="Application\" />
-    <Folder Include="Dtos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SuperKala.Base\SuperKala.BaseStatic.csproj" />
   </ItemGroup>
 
 </Project>

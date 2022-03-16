@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\FinalProject\\SuperKala\\SuperKala.Base\\SuperKala.Base.csproj",
-      "projectName": "SuperKala.Base",
-      "projectPath": "E:\\FinalProject\\SuperKala\\SuperKala.Base\\SuperKala.Base.csproj",
+      "projectUniqueName": "E:\\FinalProject\\SuperKala\\SuperKala.Base\\SuperKala.BaseStatic.csproj",
+      "projectName": "SuperKala.BaseStatic",
+      "projectPath": "E:\\FinalProject\\SuperKala\\SuperKala.Base\\SuperKala.BaseStatic.csproj",
       "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
       "outputPath": "E:\\FinalProject\\SuperKala\\SuperKala.Base\\obj\\",
       "projectStyle": "PackageReference",

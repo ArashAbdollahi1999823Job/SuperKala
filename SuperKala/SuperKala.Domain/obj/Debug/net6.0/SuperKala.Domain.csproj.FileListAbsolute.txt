@@ -1,0 +1,12 @@
+E:\FinalProject\SuperKala\SuperKala.Domain\bin\Debug\net6.0\SuperKala.Domain.deps.json
+E:\FinalProject\SuperKala\SuperKala.Domain\bin\Debug\net6.0\SuperKala.Domain.dll
+E:\FinalProject\SuperKala\SuperKala.Domain\bin\Debug\net6.0\SuperKala.Domain.pdb
+E:\FinalProject\SuperKala\SuperKala.Domain\obj\Debug\net6.0\SuperKala.Domain.csproj.AssemblyReference.cache
+E:\FinalProject\SuperKala\SuperKala.Domain\obj\Debug\net6.0\SuperKala.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\FinalProject\SuperKala\SuperKala.Domain\obj\Debug\net6.0\SuperKala.Domain.AssemblyInfoInputs.cache
+E:\FinalProject\SuperKala\SuperKala.Domain\obj\Debug\net6.0\SuperKala.Domain.AssemblyInfo.cs
+E:\FinalProject\SuperKala\SuperKala.Domain\obj\Debug\net6.0\SuperKala.Domain.csproj.CoreCompileInputs.cache
+E:\FinalProject\SuperKala\SuperKala.Domain\obj\Debug\net6.0\SuperKala.Domain.dll
+E:\FinalProject\SuperKala\SuperKala.Domain\obj\Debug\net6.0\refint\SuperKala.Domain.dll
+E:\FinalProject\SuperKala\SuperKala.Domain\obj\Debug\net6.0\SuperKala.Domain.pdb
+E:\FinalProject\SuperKala\SuperKala.Domain\obj\Debug\net6.0\ref\SuperKala.Domain.dll

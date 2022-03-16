@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سبد خرید</title>
+    <!-- fonts-------------------------------------------------------------->
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/materialdesignicons.css">
+    <!-- plugin------------------------------------------------------------->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/kamadatepicker.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/jgallery.min.css">
+    <!-- style-main--------------------------------------------------------->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- start-header -->
+    <header class="c-header">
+        <!-- logo -->
+        <div class="col-lg-3 d-inline-block">
+            <div class="logo row d-block text-center">
+                <a href="#">
+                    <img src="assets/images/logo.png" alt="superkala" height="48">
+                    <div class="my-8 text-caption">فروشگاه اینترنتی اُکالا</div>
+                </a>
+            </div>
+        </div>
+        <!-- end-logo -->
+        <!--payment steps-->
+        <div class="payment-steps align-items-center">
+            <!--item-->
+            <a class="payment-steps-item active">
+                <div class="payment-steps-item-title">
+                    <img src="assets/images/cart/download.svg" alt="cart-you" class="img-fluid">
+                    <div class="text-caption text-title">سبد خرید شما</div>
+                </div>
+                <div class="payment-steps-item-separator active"></div>
+            </a>
+            <!--item-->
+            <!--item-->
+            <a class="payment-steps-item active">
+                <div class="payment-steps-item-title">
+                    <img src="assets/images/cart/date.svg" alt="cart-you" class="img-fluid">
+                    <div class="text-caption text-title">کِی و کجا؟</div>
+                </div>
+                <div class="payment-steps-item-separator active"></div>
+            </a>
+            <!--item-->
+            <!--item-->
+            <a class="payment-steps-item active">
+                <div class="payment-steps-item-title">
+                    <img src="assets/images/cart/payment.svg" alt="cart-you" class="img-fluid">
+                    <div class="text-caption text-title">نحوه پرداخت</div>
+                </div>
+                <div class="payment-steps-item-separator"></div>
+            </a>
+            <!--item-->
+            <!--item-->
+            <a class="payment-steps-item">
+                <div class="payment-steps-item-title">
+                    <img src="assets/images/cart/order.svg" alt="cart-you" class="img-fluid">
+                    <div class="text-caption text-title">تکمیل سفارش</div>
+                </div>
+            </a>
+            <!--item-->
+        </div>
+        <!--payment steps end-->
+    </header>
+    <!-- end-header -->
+    <!-- content-site -->
+    <main>
+        <div class="cart-main">
+            <div class="d-block">
+                <div class="main-container">
+                    <div class="col-lg-8 col-md-8 col-xs-12 float-right">
+                        <div class="p-content-cart">
+                            <div class="cart-title-top h5 mb-3">انتخاب نحوه‌ پرداخت</div>
+                            <div class="shipping-time">نحوه پرداخت خود را انتخاب نمایید (با پرداخت آنلاین به بهینه شدن پرداخت ها کمک نمایید)</div>
+                            <div class="card-body card-body-paym-metd">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                      <div class="card-header pr-0" id="headingOne">
+                                        <h2 class="mb-0 pr-3 pt-2">
+                                          <button class="btn btn-block text-right pr-0" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <div class="radio-col mt-2">
+                                                <label for="#" class="outline-radio">
+                                                    <input type="radio" name="payment_method" id="online-payment">
+                                                    <span class="outline-radio-check"></span>
+                                                </label>
+                                                <label for="online-payment" class="shipping-totals-title-row">
+                                                    <div class="shipping-totals-title">پرداخت آنلاین</div>
+                                                </label>
+                                            </div>
+                                          </button>
+                                        </h2>
+                                      </div>
+                                  
+                                      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body-text pr-1">
+                                          <!-- item -->
+                                          <div class="box-option d-inline-block">
+                                            <input type="radio" class="box-option-control" id="posList2" value="2" name="posList" checked> 
+                                            <label class="box-option-label" for="posList2">
+                                                <div class="box-option-image">
+                                                    <img src="assets/images/cart/bank-img/sb-300px.png" width="75" height="75" class="img-contain" alt="bank icon">
+                                                </div>
+                                            </label>
+                                          </div>
+                                          <!-- item -->
+                                          <!-- item -->
+                                          <div class="box-option d-inline-block">
+                                            <input type="radio" class="box-option-control" id="posList3" value="2" name="posList"> 
+                                            <label class="box-option-label" for="posList3">
+                                                <div class="box-option-image">
+                                                    <img src="assets/images/cart/bank-img/mellat-300p.png" width="75" height="75" class="img-contain" alt="bank icon">
+                                                </div>
+                                            </label>
+                                          </div>
+                                          <!-- item -->
+                                          <!-- item -->
+                                          <div class="box-option d-inline-block">
+                                            <input type="radio" class="box-option-control" id="posList4" value="2" name="posList"> 
+                                            <label class="box-option-label" for="posList4">
+                                                <div class="box-option-image">
+                                                    <img src="assets/images/cart/bank-img/tara-logo.png" width="75" height="75" class="img-contain" alt="bank icon">
+                                                </div>
+                                            </label>
+                                          </div>
+                                          <!-- item -->
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <div class="card-header pr-0" id="headingTwo">
+                                        <h2 class="mb-0 pr-3 pt-2">
+                                          <button class="btn btn-block text-right collapsed pr-0" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <div class="radio-col mt-2">
+                                                <label for="#" class="outline-radio">
+                                                    <input type="radio" name="payment_method" id="Payment-on-spot">
+                                                    <span class="outline-radio-check"></span>
+                                                </label>
+                                                <label for="Payment-on-spot" class="shipping-totals-title-row">
+                                                    <div class="shipping-totals-title">پرداخت در محل</div>
+                                                </label>
+                                            </div>
+                                          </button>
+                                        </h2>
+                                      </div>
+                                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div class="card-body-text pr-1">
+                                            <div class="text-info text-shipping-totals">لطفا مبلغ سفارش را در محل تحویل،صرفااز طریق یکی از کارتهای بانکی عضو شتاب به سفیر پرداخت نمایید.</div>                                       
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <div class="card-header pr-0" id="headingThree">
+                                        <h2 class="mb-0 pr-3 pt-2">
+                                          <button class="btn btn-block text-right collapsed pr-0" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <div class="radio-col mt-2">
+                                                <label for="#" class="outline-radio">
+                                                    <input type="radio" name="payment_method" id="Wallet">
+                                                    <span class="outline-radio-check"></span>
+                                                </label>
+                                                <label for="Wallet" class="shipping-totals-title-row">
+                                                    <div class="shipping-totals-title">کیف پول اُکالا</div>
+                                                </label>
+                                            </div>
+                                          </button>
+                                        </h2>
+                                      </div>
+                                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div class="card-body-text pr-1">
+                                            <div class="text-shipping-totals">
+                                                <p> موجودی حساب شما: 
+                                                    <span class="text-danger h5 customer-credit">0</span> 
+                                                    تومان
+                                                </p>
+                                            </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="p-content-cart">
+                            <div class="cart-title-top h5 mt-3 mb-3">استفاده از امتیازات</div>
+                            <div class="card-body card-body-paym-metd">
+                                <div class="clubData">
+                                    <div class="form-auth-row">
+                                        <label for="#" class="ui-checkbox">
+                                            <input type="checkbox" value="1" name="login" id="remember">
+                                            <span class="ui-checkbox-check"></span>
+                                        </label>
+                                        <label for="remember" class="remember-me">تخفیف باشگاه</label>
+                                    </div>
+                                    <div class="dec-div">
+                                        <span class="title">امتیاز عمومی :</span>
+                                        <span class="amount">0</span>
+                                    </div>
+                                    <div class="dec-div">
+                                        <span class="discount">تخفیف :</span>
+                                        <div class="price d-inline-block">
+                                            <span class="title">0
+                                                <span>تومان</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-content-cart">
+                            <div class="cart-title-top h5 mb-2">کد تخفیف</div>
+                            <div class="shipping-time">در صورت داشتن کد تخفیف آن را در این محل و قبل از اعمال دکمه تایید نهایی وارد نمایید</div>
+                            <div class="card-body card-body-paym-metd">
+                                <div class="form-group m-0">
+                                    <div class="input-group">
+                                        <input id="discountCode" type="text" class="form-control" required="" placeholder="کد تخفیف خود را وارد نمایید ...">
+                                        <div class="input-group-append">
+                                            <button id="discountCodeBtn" data-add="1" class="btn  btn-gradient-secondary btn-actions" type="button">اعمال کد</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--back-->
+                        <a href="#" class="btn btn-sm back-to-index">
+                            <i class="fa fa-angle-right"></i>
+                            بازگشت به صفحه قبل
+                        </a>
+                        <!--back-->
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-12 float-left">
+                        <div class="p-sidebar-cart">
+                            <div class="cart-title-top h5 mb-3">جزئیات خرید</div>
+                            <div class="card-body">
+                                <ul class="sidebar-cart-ul">
+                                    <li class="sidebar-cart-item">
+                                        <span class="title">تعداد اقلام</span>
+                                        <span class="dec">2 عدد</span>
+                                    </li>
+                                    <li class="sidebar-cart-item">
+                                        <span class="title">جمع کل قبل از تخفیف</span>
+                                        <span class="dec">1,64,000 تومان</span>
+                                    </li>
+                                    <li class="sidebar-cart-item">
+                                        <span class="title">سود شما از این خرید</span>
+                                        <span class="dec">52000 تومان</span>
+                                    </li>
+                                    <li class="sidebar-cart-item mb-3">
+                                        <span class="title text-success">جمع کل بعد از تخفیف</span>
+                                        <span class="dec text-success">56000 تومان</span>
+                                    </li>
+                                    <li class="sidebar-cart-item mb-3">
+                                        <span class="title text-danger">مبلغ قابل پرداخت</span>
+                                        <span class="dec text-danger">56000 تومان</span>
+                                    </li>
+                                    <!--continue-->
+                                    <a href="#" class="address-selection">نهایی کردن سفارش</a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- content-site -->
+    <!-- footer -->
+    <footer class="footer-main-site">
+        <section class="d-block d-xl-block d-lg-block d-md-block d-sm-block order-1">
+            <div class="container-fluid">
+                <div class="col-12">
+                    <div class="footer-middlebar">
+                        <div class="col-lg-8 d-block float-right">
+                            <div class="footer-links mt-5">
+                                <div class="col-lg-4 col-md-4 col-xs-12 float-right">
+                                    <div class="row">
+                                        <section class="footer-links-col">
+                                            <div class="headline-links">
+                                                <a href="#">
+                                                    با سوپرکالا
+                                                </a>
+                                            </div>
+                                            <ul class="footer-menu-ul">
+                                                <li class="menu-item-type-custom">
+                                                    <a href="#">
+                                                        درباره اپلیکیشن
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <a href="aboutus.html">
+                                                        درباره سوپرکالا
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <a href="contactus.html">
+                                                        تماس با ما
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <a href="superkalablog/blog.html">
+                                                        بلاگ
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <a href="#">
+                                                        همکاری با تأمین کنندگان
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-xs-12 float-right">
+                                    <div class="row">
+                                        <section class="footer-links-col">
+                                            <div class="headline-links">
+                                                <a href="#">
+                                                    خدمات مشتریان
+                                                </a>
+                                            </div>
+                                            <ul class="footer-menu-ul">
+                                                <li class="menu-item-type-custom">
+                                                    <a href="faq.html">
+                                                        پاسخ به پرسش‌های متداول
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <a href="#">
+                                                        رویه‌های بازگرداندن کالا
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <a href="#">
+                                                        شرایط استفاده
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <a href="#">
+                                                        حریم خصوصی
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-xs-12 float-right">
+                                    <div class="row">
+                                        <section class="footer-links-col">
+                                            <div class="headline-links">
+                                                <a href="#">
+                                                    راه های ارتباطی
+                                                </a>
+                                            </div>
+                                            <ul class="footer-menu-ul">
+                                                <li class="menu-item-type-custom">
+                                                    <i class="mdi mdi-phone-in-talk"></i>
+                                                    <span class="font-weight-light">تلفن تماس:</span>
+                                                    <span class="font-weight-bold" dir="ltr">(021)54595000</span>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <i class="mdi mdi-map-marker-radius"></i>
+                                                    <span class="font-weight-light">آدرس:</span>
+                                                    <span class="font-weight-bold" dir="ltr">بجنورد - خراسان شمالی </span>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <i class="mdi mdi-email"></i>
+                                                    <span class="font-weight-light">ایمیل:</span>
+                                                    <strong class="font-weight-bold" dir="ltr">
+                                                        <a href="#">info@superkala.com</a>
+                                                    </strong>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-block float-left">
+                            <aside>
+                                <ul class="footer-safety-partner mt-4 pull-left">
+                                    <li class="footer-safety-partner-1">
+                                        <a href="#">
+                                            <img src="assets/images/footer/license/L-2.png">
+                                        </a>
+                                    </li>
+                                    <li class="footer-safety-partner-1">
+                                        <a href="#">
+                                            <img src="assets/images/footer/license/L-1.png">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                        <div class="footer-more-info">
+                            <div class="footer-copyright">
+                                <div class="footer-copyright-text">
+                                    <p>تمامی مطالب، عکس ها و... متعلق به سایت سوپرمارکت آنلاین سوپرکالا می باشد. ©
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer -->
+    <!-- scroll-top -->
+    <div class="btn btn-danger scrolltop">
+        <i class="fa fa-angle-up"></i>
+        <div class="bg-caver-scroll"></div>
+    </div>
+</body>
+<!-- plugin------------------------------------------------------------->
+<script src="assets/js/vendor/jquery-3.2.1.min.js"></script>
+<script src="assets/js/vendor/popper.min.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+<script src="assets/js/vendor/swiper-bundle.min.js"></script>
+<script src="assets/js/vendor/kamadatepicker.min.js"></script>
+<script src="assets/js/vendor/jgallery.min.js"></script>
+<!-- jquery-main-------------------------------------------------------->
+<script src="assets/js/main.js"></script>
+</html>

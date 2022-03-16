@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سبد خرید</title>
+    <!-- fonts-------------------------------------------------------------->
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/materialdesignicons.css">
+    <!-- plugin------------------------------------------------------------->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/kamadatepicker.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/jgallery.min.css">
+    <!-- style-main--------------------------------------------------------->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- start-header -->
+    <header class="c-header">
+        <!-- logo -->
+        <div class="col-lg-3 d-inline-block">
+            <div class="logo row d-block text-center">
+                <a href="#">
+                    <img src="assets/images/logo.png" alt="superkala" height="48">
+                    <div class="my-8 text-caption">فروشگاه اینترنتی اُکالا</div>
+                </a>
+            </div>
+        </div>
+        <!-- end-logo -->
+        <!--payment steps-->
+        <div class="payment-steps align-items-center">
+            <!--item-->
+            <a class="payment-steps-item active">
+                <div class="payment-steps-item-title">
+                    <img src="assets/images/cart/download.svg" alt="cart-you" class="img-fluid">
+                    <div class="text-caption text-title">سبد خرید شما</div>
+                </div>
+                <div class="payment-steps-item-separator active"></div>
+            </a>
+            <!--item-->
+            <!--item-->
+            <a class="payment-steps-item active">
+                <div class="payment-steps-item-title">
+                    <img src="assets/images/cart/date.svg" alt="cart-you" class="img-fluid">
+                    <div class="text-caption text-title">کِی و کجا؟</div>
+                </div>
+                <div class="payment-steps-item-separator"></div>
+            </a>
+            <!--item-->
+            <!--item-->
+            <a class="payment-steps-item">
+                <div class="payment-steps-item-title">
+                    <img src="assets/images/cart/payment.svg" alt="cart-you" class="img-fluid">
+                    <div class="text-caption text-title">نحوه پرداخت</div>
+                </div>
+                <div class="payment-steps-item-separator"></div>
+            </a>
+            <!--item-->
+            <!--item-->
+            <a class="payment-steps-item">
+                <div class="payment-steps-item-title">
+                    <img src="assets/images/cart/order.svg" alt="cart-you" class="img-fluid">
+                    <div class="text-caption text-title">تکمیل سفارش</div>
+                </div>
+            </a>
+            <!--item-->
+        </div>
+        <!--payment steps end-->
+    </header>
+    <!-- end-header -->
+    <!-- content-site -->
+    <main>
+        <div class="cart-main">
+            <div class="d-block">
+                <div class="main-container">
+                    <div class="col-lg-8 col-md-8 col-xs-12 float-right">
+                        <div class="p-content-cart">
+                            <div class="cart-title-top h5 mb-3">انتخاب آدرس تحویل سفارش</div>
+                            <div class="card-body">
+                                <div class="current-address">
+                                    <div class="subtitle">
+                                        <div class="col-12 mb-3 float-right">
+                                            <section class="content-expert-article">
+                                                <button type="submit" class="btn btn-outline-info add-address content-expert-button">
+                                                    <span class="show-more">تغییر  یا افزودن آدرس تحویل</span>
+                                                    <span class="show-less">انصراف</span>
+                                                </button>
+                                                <a href="#" class="edit-address" data-toggle="modal" data-target="#exampleModalCenter">اصلاح این آدرس</a>
+                                                <div class="content-expert-text">
+                                                    <button type="submit" class="btn btn-outline-info add-address" data-toggle="modal" data-target="#exampleModalCenter">
+                                                        <i class="mdi mdi-plus"></i>
+                                                        افزودن آدرس جدید
+                                                    </button>
+                                                    <div class="address-list-data">
+                                                        <a href="#" class="address-detail text-dark d-block">
+                                                            <div class="col-12 mb-3 float-right">
+                                                                <span class="title font-weight-bolder">تحویل گیرنده: </span>
+                                                                <span class="transfree-name">حسن شجاعی</span>
+                                                                <button type="submit" class="btn btn-outline-primary deleteAdddress">حذف</button>
+                                                                <button type="submit" class="btn btn-outline-secondary EditAddresse ml-2" data-toggle="modal" data-target="#exampleModalCenter">ویرایش</button>
+                                                            </div>
+                                                            <div class="col-12 mb-3 float-right">
+                                                                <span class="title">آدرس: </span>
+                                                                <span class="address-text">
+                                                                    <span class="address-string">خراسان شمالی بجنورد </span>
+                                                                    <span class="address-plaque">
+                                                                        پلاک 297
+                                                                    </span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="col-12 float-right">
+                                                                <span class="title">شماره همراه: </span>
+                                                                <span class="address-mobile">
+                                                                    09386906500
+                                                                </span>
+                                                            </div>
+                                                            <div class="col-12 float-right pl-0 pr-0">
+                                                                <div class="address-footer">
+                                                                    <div class="text-center">
+                                                                            <small class="text-white">سفارش به این آدرس ارسال می‌شود.</small>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <div class="col-12 mb-3 float-right ad-ph">
+                                            <span class="title font-weight-bolder">تحویل گیرنده: </span>
+                                            <span class="transfree-name">حسن شجاعی</span>
+                                        </div>
+                                        <div class="col-12 mb-3 float-right ad-ph">
+                                            <span class="title">آدرس: </span>
+                                            <span class="address-text">
+                                                <span class="address-string">خراسان شمالی بجنورد </span>
+                                                <span class="address-plaque">
+                                                    پلاک 297
+                                                </span>
+                                            </span>
+                                        </div>
+                                        <div class="col-12 float-right ad-ph">
+                                            <span class="title">شماره همراه: </span>
+                                            <span class="address-mobile">
+                                                09386906500
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-content-cart">
+                            <div class="cart-title-top h5 mb-2">انتخاب زمان ارسال</div>
+                            <div class="shipping-time">زمان ارسال کالا را با دقت تعیین نمایید تا هنگام دریافت به مشکل برنخورید</div>
+                            <div class="card-body">
+                                <div class="d-block">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="col">
+                                            <div class="card">
+                                                <div class="card-header-item" id="headingOne">
+                                                    <h2 class="mb-0">
+                                                    <button class="btn btn-block text-right" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                        <label for="payment-option-hour" class="outline-radio">
+                                                            <input type="radio" name="payment_method" id="payment-option-hour">
+                                                            <span class="outline-radio-check"></span>
+                                                        </label>
+                                                        <label for="payment-option-hour" class="shipping-totals-title-row">
+                                                            <div class="shipping-totals-title">یک ساعته (30,000 ریال)</div>
+                                                        </label>
+                                                    </button>
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="shipping-desc-content">
+                                            <div id="collapseOne" class="shipping-desc collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                <div class="shipping-desc-item mt-3 h6">
+                                                    <span class="text-danger">گارانتی تحویل 60 دقیقه </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div class="card">
+                                                <div class="card-header-item" id="headingTwo">
+                                                    <h2 class="mb-0">
+                                                    <button class="btn btn-block text-right" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                                        <label for="payment-option-Scheduled" class="outline-radio">
+                                                            <input type="radio" name="payment_method" id="payment-option-Scheduled">
+                                                            <span class="outline-radio-check"></span>
+                                                        </label>
+                                                        <label for="payment-option-Scheduled" class="shipping-totals-title-row">
+                                                            <div class="shipping-totals-title">زمان بندی شده (20,000 ریال)</div>
+                                                        </label>
+                                                    </button>
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="shipping-desc-content">
+                                            <div id="collapseTwo" class="shipping-desc collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                <div class="shipping-desc-item mt-3 h6">
+                                                    <span class="text-danger mb-4 d-block">تحویل در زمان تعیین شده</span>
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                                                                جمعه
+                                                                <br>
+                                                                1399/7/25
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content mt-3 pr-3 pl-3" id="myTabContent">
+                                                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                                            <div class="radio-col">
+                                                                <label for="payment-option-Scheduled-19" class="outline-radio">
+                                                                    <input type="radio" name="payment_method-item" id="payment-option-Scheduled-19">
+                                                                    <span class="outline-radio-check"></span>
+                                                                </label>
+                                                                <label for="payment-option-Scheduled-19" class="shipping-totals-title-row">
+                                                                    <div class="shipping-totals-title">ساعت 19 - 21</div>
+                                                                </label>
+                                                            </div>
+                                                            <div class="radio-col">
+                                                                <label for="payment-option-Scheduled-20" class="outline-radio">
+                                                                    <input type="radio" name="payment_method-item" id="payment-option-Scheduled-20">
+                                                                    <span class="outline-radio-check"></span>
+                                                                </label>
+                                                                <label for="payment-option-Scheduled-20" class="shipping-totals-title-row">
+                                                                    <div class="shipping-totals-title">ساعت 21 - 23</div>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--back-->
+                        <a href="#" class="btn btn-sm back-to-index">
+                            <i class="fa fa-angle-right"></i>
+                            بازگشت به صفحه قبل
+                        </a>
+                        <!--back-->
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-12 float-left">
+                        <div class="p-sidebar-cart">
+                            <div class="cart-title-top h5 mb-3">جزئیات خرید</div>
+                            <div class="card-body">
+                                <ul class="sidebar-cart-ul">
+                                    <li class="sidebar-cart-item">
+                                        <span class="title">تعداد اقلام</span>
+                                        <span class="dec">2 عدد</span>
+                                    </li>
+                                    <li class="sidebar-cart-item">
+                                        <span class="title">جمع کل قبل از تخفیف</span>
+                                        <span class="dec">1,64,000 تومان</span>
+                                    </li>
+                                    <li class="sidebar-cart-item">
+                                        <span class="title">سود شما از این خرید</span>
+                                        <span class="dec">52000 تومان</span>
+                                    </li>
+                                    <li class="sidebar-cart-item mb-3">
+                                        <span class="title text-success">جمع کل بعد از تخفیف</span>
+                                        <span class="dec text-success">56000 تومان</span>
+                                    </li>
+                                    <li class="sidebar-cart-item mb-3">
+                                        <span class="title text-danger">مبلغ قابل پرداخت</span>
+                                        <span class="dec text-danger">56000 تومان</span>
+                                    </li>
+                                    <!--continue-->
+                                    <a href="#" class="address-selection">انتخاب آدرس</a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalCenterTitle">
+                         ثبت آدرس جدید
+                      </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                          <div class="middle-container">
+                          <form action="#" class="form-checkout">
+                              <div class="form-checkout-row">
+                                  <div class="form-checkout-valid-row">
+                                    <label for="name">نام تحویل گیرنده <span class="required-star" style="color:red;">*</span></label>
+                                    <input type="text" id="name" class="input-name-checkout form-control" placeholder="">
+                                  </div>
+                                  
+                                  <div class="form-checkout-valid-row">
+                                    <label for="phone-number">شماره موبایل</label>
+                                    <input type="number" id="phone-number" class="input-name-checkout form-control" placeholder="" style="text-align:left;">
+                                  </div>
+
+                                  <label for="address">آدرس 
+                                    <span class="required-star" style="color:red;">*</span></label>
+                                    <input type="text" id="address" class="input-name-checkout form-control" placeholder="">
+
+                                  <div class="form-checkout-valid-row w-20">
+                                    <label for="bld-num">پلاک<span class="required-star" style="color:red;">*</span></label>
+                                    <input type="text" id="bld-num" class="input-name-checkout js-input-bld-num form-control" placeholder="">
+                                  </div>
+
+                                  <div class="form-checkout-valid-row w-20">
+                                    <label for="apt-id">واحد</label>
+                                    <input type="text" id="apt-id" class="input-name-checkout js-input-apt-id form-control" placeholder="">
+                                  </div>
+
+                                  <div class="form-checkout-valid-row">
+                                    <label for="post-code">کد پستی</label>
+                                    <input type="text" id="post-code" class="input-name-checkout form-control" placeholder="">
+                                  </div>
+
+                                  <div class="AR-CR">
+                                      <button class="btn-registrar"> ثبت آدرس</button>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </main>
+    <!-- content-site -->
+    <!-- footer -->
+    <footer class="footer-main-site">
+        <section class="d-block d-xl-block d-lg-block d-md-block d-sm-block order-1">
+            <div class="container-fluid">
+                <div class="col-12">
+                    <div class="footer-middlebar">
+                        <div class="col-lg-8 d-block float-right">
+                            <div class="footer-links mt-5">
+                                <div class="col-lg-4 col-md-4 col-xs-12 float-right">
+                                    <div class="row">
+                                        <section class="footer-links-col">
+                                            <div class="headline-links">
+                                                <a href="#">
+                                                    با سوپرکالا
+                                                </a>
+                                            </div>
+                                            <ul class="footer-menu-ul">
+                                                <li class="menu-item-type-custom">
+                                                    <a href="#">
+                                                        درباره اپلیکیشن
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <a href="aboutus.html">
+                                                        درباره سوپرکالا
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <a href="contactus.html">
+                                                        تماس با ما
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <a href="superkalablog/blog.html">
+                                                        بلاگ
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <a href="#">
+                                                        همکاری با تأمین کنندگان
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-xs-12 float-right">
+                                    <div class="row">
+                                        <section class="footer-links-col">
+                                            <div class="headline-links">
+                                                <a href="#">
+                                                    خدمات مشتریان
+                                                </a>
+                                            </div>
+                                            <ul class="footer-menu-ul">
+                                                <li class="menu-item-type-custom">
+                                                    <a href="faq.html">
+                                                        پاسخ به پرسش‌های متداول
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <a href="#">
+                                                        رویه‌های بازگرداندن کالا
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <a href="#">
+                                                        شرایط استفاده
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <a href="#">
+                                                        حریم خصوصی
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-xs-12 float-right">
+                                    <div class="row">
+                                        <section class="footer-links-col">
+                                            <div class="headline-links">
+                                                <a href="#">
+                                                    راه های ارتباطی
+                                                </a>
+                                            </div>
+                                            <ul class="footer-menu-ul">
+                                                <li class="menu-item-type-custom">
+                                                    <i class="mdi mdi-phone-in-talk"></i>
+                                                    <span class="font-weight-light">تلفن تماس:</span>
+                                                    <span class="font-weight-bold" dir="ltr">(021)54595000</span>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <i class="mdi mdi-map-marker-radius"></i>
+                                                    <span class="font-weight-light">آدرس:</span>
+                                                    <span class="font-weight-bold" dir="ltr">بجنورد - خراسان شمالی </span>
+                                                </li>
+                                                <li class="menu-item-type-custom">
+                                                    <i class="mdi mdi-email"></i>
+                                                    <span class="font-weight-light">ایمیل:</span>
+                                                    <strong class="font-weight-bold" dir="ltr">
+                                                        <a href="#">info@superkala.com</a>
+                                                    </strong>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-block float-left">
+                            <aside>
+                                <ul class="footer-safety-partner mt-4 pull-left">
+                                    <li class="footer-safety-partner-1">
+                                        <a href="#">
+                                            <img src="assets/images/footer/license/L-2.png">
+                                        </a>
+                                    </li>
+                                    <li class="footer-safety-partner-1">
+                                        <a href="#">
+                                            <img src="assets/images/footer/license/L-1.png">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                        <div class="footer-more-info">
+                            <div class="footer-copyright">
+                                <div class="footer-copyright-text">
+                                    <p>تمامی مطالب، عکس ها و... متعلق به سایت سوپرمارکت آنلاین سوپرکالا می باشد. ©
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer -->
+    <!-- scroll-top -->
+    <div class="btn btn-danger scrolltop">
+        <i class="fa fa-angle-up"></i>
+        <div class="bg-caver-scroll"></div>
+    </div>
+</body>
+<!-- plugin------------------------------------------------------------->
+<script src="assets/js/vendor/jquery-3.2.1.min.js"></script>
+<script src="assets/js/vendor/popper.min.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+<script src="assets/js/vendor/swiper-bundle.min.js"></script>
+<script src="assets/js/vendor/kamadatepicker.min.js"></script>
+<script src="assets/js/vendor/jgallery.min.js"></script>
+<!-- jquery-main-------------------------------------------------------->
+<script src="assets/js/main.js"></script>
+</html>

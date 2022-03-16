@@ -1,0 +1,17 @@
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\bin\Debug\net6.0\SuperKala.Infrastructure.deps.json
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\bin\Debug\net6.0\SuperKala.Infrastructure.runtimeconfig.json
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\bin\Debug\net6.0\SuperKala.Infrastructure.dll
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\bin\Debug\net6.0\SuperKala.Infrastructure.pdb
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\bin\Debug\net6.0\SuperKala.Domain.dll
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\bin\Debug\net6.0\SuperKala.Domain.pdb
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastructure.csproj.AssemblyReference.cache
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastructure.AssemblyInfoInputs.cache
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastructure.AssemblyInfo.cs
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastructure.csproj.CoreCompileInputs.cache
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastructure.csproj.CopyComplete
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastructure.dll
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\refint\SuperKala.Infrastructure.dll
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastructure.pdb
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastructure.genruntimeconfig.cache
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\ref\SuperKala.Infrastructure.dll

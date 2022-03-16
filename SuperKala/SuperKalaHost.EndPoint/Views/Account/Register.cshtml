@@ -1,0 +1,109 @@
+﻿@using NuGet.Protocol
+@model SuperKala.Application.Dtos.UserAccount.UserRegisterDto
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود و ثبت نام</title>   
+    <!-- fonts-------------------------------------------------------------->
+    <link rel="stylesheet" href="~/superkala/assets/css/vendor/font-awesome.min.css">
+    <link rel="stylesheet" href="~/superkala/assets/css/vendor/materialdesignicons.css">
+    <!-- plugin------------------------------------------------------------->
+    <link rel="stylesheet" href="~/superkala/assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="~/superkala/assets/css/vendor/swiper-bundle.min.css">
+    <link rel="stylesheet" href="~/superkala/assets/css/vendor/kamadatepicker.min.css">
+    <link rel="stylesheet" href="~/superkala/assets/css/vendor/jgallery.min.css">
+    <!-- style-main--------------------------------------------------------->
+    <link rel="stylesheet" href="~/superkala/assets/css/main.css">
+    <link rel="stylesheet" href="~/superkala/assets/css/responsive.css">
+</head>
+<body>
+    <main>
+    <div class="container-login page-background">
+        <div class="container">
+            <div class="col-lg-6 col-md-6 col-xs-12 mx-auto">
+                <div class="account-box">
+                    <a href="index.html" class="logo-account">
+                        <img src="~/superkala/assets/images/logo.png" alt="superkala" height="48">
+                        <div class="my-8 text-caption text-logo">فروشگاه اینترنتی افق کوروش</div>
+                    </a>
+                    <span class="account-head-line">ثبت نام</span>
+                    <form asp-action="Register" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="content-account register">
+                            <div class="account-item user account-item-reg">
+                                <label asp-for="UserName">نام کاربری</label>
+                                <input asp-for="UserName" type="text" id="user" class="input-user-account" placeholder="">
+                                <span asp-validation-for="UserName" class="text-danger"></span>
+                            </div>
+                            <div class="account-item email account-item-reg">
+                                <label asp-for="Email">ایمیل</label>
+                                <input asp-for="Email" type="email" id="email-phone" class="input-email-account" placeholder="">
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            <div class="account-item password account-item-reg">
+                                <label asp-for="Password">رمز عبور</label>
+                                <input asp-for="Password" type="password" id="password" class="input-password" placeholder="">
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                            <div class="account-item again-password account-item-reg">
+                                <label asp-for="RePassword">تکرار رمز عبور</label>
+                                <input asp-for="RePassword" type="again-password" id="a-password" class="input-again-password" placeholder="">
+                                <span asp-validation-for="RePassword" class="text-danger"></span>
+                            </div>
+                            <div class="account-item again-password account-item-reg">
+                                <label asp-for="PhoneNumber" class="control-label">شماره موبایل</label>
+                                <input asp-for="PhoneNumber" class="form-control" />
+                                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                            </div>
+                            <div class="account-item again-password account-item-reg">
+                               @if (ViewBag.Messages!= null)
+
+                               {
+                                   foreach (var message in ViewBag.Messages)
+                                   {
+                                       <span class="text-danger">@message.Description</span>
+                                   }
+                               }
+                                
+                            </div>
+
+                            <button type="submit" class="btn btn-danger btnLogin">ثبت نام به سوپرکالا</button>
+                        </div>
+                    </form>
+                    <div class="account-footer">
+                        <a href="login.html" class="btn-link-register">شما درحال حاضر عضو هستید؟</a>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer-light">
+                <div class="container">
+                    <ul class="footer-light-link">
+                        <li><a href="#">حریم خصوصی</a></li>
+                        <li><a href="#">سوالات متداول</a></li>
+                        <li><a href="#">شرایط حمل و نقل</a></li>
+                        <li><a href="#">تماس با ما</a></li>
+                        <li><a href="#">درباره سوپرکالا</a></li>
+                    </ul>
+                    <p class="title-footer">کلیه حقوق مادی و معنوی این سایت محفوظ است. ۱۳۹۹ ©</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+</main>
+<div>
+    <a asp-action="">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+@section Script{
+    @{ await Html.RenderPartialAsync("Script");}
+}
+</body>
+</html>

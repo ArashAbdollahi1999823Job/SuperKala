@@ -4,14 +4,126 @@
     "E:\\FinalProject\\SuperKala\\SuperKalaHost.EndPoint\\SuperKalaHost.EndPoint.csproj": {}
   },
   "projects": {
-    "E:\\FinalProject\\SuperKala\\SuperKalaHost.EndPoint\\SuperKalaHost.EndPoint.csproj": {
+    "E:\\FinalProject\\SuperKala\\SuperKala.Application\\SuperKala.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FinalProject\\SuperKala\\SuperKalaHost.EndPoint\\SuperKalaHost.EndPoint.csproj",
-        "projectName": "SuperKalaHost.EndPoint",
-        "projectPath": "E:\\FinalProject\\SuperKala\\SuperKalaHost.EndPoint\\SuperKalaHost.EndPoint.csproj",
+        "projectUniqueName": "E:\\FinalProject\\SuperKala\\SuperKala.Application\\SuperKala.Application.csproj",
+        "projectName": "SuperKala.Application",
+        "projectPath": "E:\\FinalProject\\SuperKala\\SuperKala.Application\\SuperKala.Application.csproj",
         "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
-        "outputPath": "E:\\FinalProject\\SuperKala\\SuperKalaHost.EndPoint\\obj\\",
+        "outputPath": "E:\\FinalProject\\SuperKala\\SuperKala.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\FinalProject\\SuperKala\\SuperKala.Base\\SuperKala.BaseStatic.csproj": {
+                "projectPath": "E:\\FinalProject\\SuperKala\\SuperKala.Base\\SuperKala.BaseStatic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\FinalProject\\SuperKala\\SuperKala.Base\\SuperKala.BaseStatic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\FinalProject\\SuperKala\\SuperKala.Base\\SuperKala.BaseStatic.csproj",
+        "projectName": "SuperKala.BaseStatic",
+        "projectPath": "E:\\FinalProject\\SuperKala\\SuperKala.Base\\SuperKala.BaseStatic.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\FinalProject\\SuperKala\\SuperKala.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\FinalProject\\SuperKala\\SuperKala.Domain\\SuperKala.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\FinalProject\\SuperKala\\SuperKala.Domain\\SuperKala.Domain.csproj",
+        "projectName": "SuperKala.Domain",
+        "projectPath": "E:\\FinalProject\\SuperKala\\SuperKala.Domain\\SuperKala.Domain.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\FinalProject\\SuperKala\\SuperKala.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +152,167 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\FinalProject\\SuperKala\\SuperKala.Infrastracture\\SuperKala.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\FinalProject\\SuperKala\\SuperKala.Infrastracture\\SuperKala.Infrastructure.csproj",
+        "projectName": "SuperKala.Infrastructure",
+        "projectPath": "E:\\FinalProject\\SuperKala\\SuperKala.Infrastracture\\SuperKala.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\FinalProject\\SuperKala\\SuperKala.Infrastracture\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\FinalProject\\SuperKala\\SuperKala.Domain\\SuperKala.Domain.csproj": {
+                "projectPath": "E:\\FinalProject\\SuperKala\\SuperKala.Domain\\SuperKala.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\FinalProject\\SuperKala\\SuperKalaHost.EndPoint\\SuperKalaHost.EndPoint.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\FinalProject\\SuperKala\\SuperKalaHost.EndPoint\\SuperKalaHost.EndPoint.csproj",
+        "projectName": "SuperKalaHost.EndPoint",
+        "projectPath": "E:\\FinalProject\\SuperKala\\SuperKalaHost.EndPoint\\SuperKalaHost.EndPoint.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\FinalProject\\SuperKala\\SuperKalaHost.EndPoint\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\FinalProject\\SuperKala\\SuperKala.Application\\SuperKala.Application.csproj": {
+                "projectPath": "E:\\FinalProject\\SuperKala\\SuperKala.Application\\SuperKala.Application.csproj"
+              },
+              "E:\\FinalProject\\SuperKala\\SuperKala.Infrastracture\\SuperKala.Infrastructure.csproj": {
+                "projectPath": "E:\\FinalProject\\SuperKala\\SuperKala.Infrastracture\\SuperKala.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.2, )"

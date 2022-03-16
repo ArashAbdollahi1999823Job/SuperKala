@@ -23,17 +23,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperKala.Application", "Su
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperKala.Domain", "SuperKala.Domain\SuperKala.Domain.csproj", "{17798C76-D219-4C0E-BB42-347FEA1681DF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperKala.Infrastracture", "SuperKala.Infrastracture\SuperKala.Infrastracture.csproj", "{A40C5950-8C5D-49EF-A2A9-93901350C3F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperKala.Infrastructure", "SuperKala.Infrastracture\SuperKala.Infrastructure.csproj", "{A40C5950-8C5D-49EF-A2A9-93901350C3F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{5C8267EA-D1B3-4E3B-B32C-414E40929267}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperKala.Base", "SuperKala.Base\SuperKala.Base.csproj", "{A1AFBFE5-6BDA-4C16-AB79-B7C8752348A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperKala.BaseStatic", "SuperKala.Base\SuperKala.BaseStatic.csproj", "{A1AFBFE5-6BDA-4C16-AB79-B7C8752348A4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperKala.Query", "SuperKala.Query\SuperKala.Query.csproj", "{4872ED1A-4C3A-4A35-B931-874E902B5B1B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperKala.BaseFramework", "SuperKala.BaseFramework\SuperKala.BaseFramework.csproj", "{4B91079C-083D-4D17-A73A-7858C9776A5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperKalaHost.EndPoint", "SuperKalaHost.EndPoint\SuperKalaHost.EndPoint.csproj", "{46F85CB7-A555-49BC-9220-58207FB8A8E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperKalaHost.EndPoint", "SuperKalaHost.EndPoint\SuperKalaHost.EndPoint.csproj", "{46F85CB7-A555-49BC-9220-58207FB8A8E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

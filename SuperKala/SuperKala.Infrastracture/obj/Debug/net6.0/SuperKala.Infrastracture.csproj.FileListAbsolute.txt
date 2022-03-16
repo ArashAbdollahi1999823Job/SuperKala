@@ -1,0 +1,12 @@
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\bin\Debug\net6.0\SuperKala.Infrastracture.deps.json
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\bin\Debug\net6.0\SuperKala.Infrastracture.dll
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\bin\Debug\net6.0\SuperKala.Infrastracture.pdb
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastracture.csproj.AssemblyReference.cache
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastracture.GeneratedMSBuildEditorConfig.editorconfig
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastracture.AssemblyInfoInputs.cache
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastracture.AssemblyInfo.cs
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastracture.csproj.CoreCompileInputs.cache
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastracture.dll
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\refint\SuperKala.Infrastracture.dll
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\SuperKala.Infrastracture.pdb
+E:\FinalProject\SuperKala\SuperKala.Infrastracture\obj\Debug\net6.0\ref\SuperKala.Infrastracture.dll

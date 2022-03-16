@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "SuperKala.BaseStatic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SuperKala.BaseStatic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SuperKala.BaseStatic.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SuperKala.BaseStatic/1.0.0": {
+      "type": "project",
+      "path": "../SuperKala.Base/SuperKala.BaseStatic.csproj",
+      "msbuildProject": "../SuperKala.Base/SuperKala.BaseStatic.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "SuperKala.BaseStatic >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Arash\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\FinalProject\\SuperKala\\SuperKala.Base\\SuperKala.BaseStatic.csproj": {
+              "projectPath": "E:\\FinalProject\\SuperKala\\SuperKala.Base\\SuperKala.BaseStatic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
